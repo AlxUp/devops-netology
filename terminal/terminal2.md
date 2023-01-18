@@ -5,7 +5,7 @@ cd is a shell builtin
 Задание2 Какая альтернатива без pipe команде grep <some_string> <some_file> | wc -l?
 Подсказка
 man grep поможет в ответе на этот вопрос.
-wc -l < <(<some_string> <some_file>)
+ls -r -inc *
 
 Ознакомьтесь с документом о других подобных некорректных вариантах использования pipe.
 
@@ -27,6 +27,7 @@ vagrant@vagrant:~$
 vagrant@vagrant:~$ sudo ls -l \root 2>/dev/pts/1
 
 Задание5 Получится ли одновременно передать команде файл на stdin и вывести ее stdout в другой файл? Приведите работающий пример.
+sed 's/#/##/g' <~/test1 >test2
 
 Задание6 Получится ли, находясь в графическом режиме, вывести данные из PTY в какой-либо из эмуляторов TTY? Сможете ли вы наблюдать выводимые данные?
 root@vagrant:/home/vagrant# echo 'message' > /dev/tty1
