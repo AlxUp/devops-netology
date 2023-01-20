@@ -6,16 +6,16 @@
    strace на /bin/bash -c 'cd /tmp'. В этом случае вы увидите полный список системных вызовов, которые делает сам bash при старте.
    Вам нужно найти тот единственный, который относится именно к cd. Обратите внимание, что strace выдаёт результат своей работы в поток stderr, а не в stdout.
 
-    chdir()
+    `chdir()`
 
 2. Попробуйте использовать команду file на объекты разных типов в файловой системе. Например:
 
-    vagrant@netology1:~$ file /dev/tty
+    `vagrant@netology1:~$ file /dev/tty
     /dev/tty: character special (5/0)
     vagrant@netology1:~$ file /dev/sda
     /dev/sda: block special (8/0)
     vagrant@netology1:~$ file /bin/bash
-    /bin/bash: ELF 64-bit LSB shared object, x86-64
+    /bin/bash: ELF 64-bit LSB shared object, x86-64`
 
    Используя strace выясните, где находится база данных file, на основании которой она делает свои догадки.
 
