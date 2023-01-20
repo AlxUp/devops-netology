@@ -12,8 +12,8 @@
        tar xzf node_exporter-1.5.0.darwin-amd64.tar.gz 
        touch opt/node_exporter.env
        echo "EXTRA_OPTS=\"--log.level=info\"" | sudo tee opt/node_exporter.env
-       mv node_exporter-1.5.0.darwin-amd64/node_exporter /usr/local/bin/ ```
-
+       mv node_exporter-1.5.0.darwin-amd64/node_exporter /usr/local/bin/
+   ```
 
 2. Ознакомьтесь с опциями node_exporter и выводом /metrics по-умолчанию. Приведите несколько опций, которые вы бы выбрали для базового мониторинга хоста по CPU, памяти, диску и сети.
 
