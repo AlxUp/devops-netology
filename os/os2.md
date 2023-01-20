@@ -8,7 +8,8 @@
    предусмотрите возможность добавления опций к запускаемому процессу через внешний файл (посмотрите, например, на systemctl cat cron),
    удостоверьтесь, что с помощью systemctl процесс корректно стартует, завершается, а после перезагрузки автоматически поднимается.
  
-   ``` https://github.com/prometheus/node_exporter/releases/download/v1.5.0/node_exporter-1.5.0.darwin-amd64.tar.gz 
+   ```
+       https://github.com/prometheus/node_exporter/releases/download/v1.5.0/node_exporter-1.5.0.darwin-amd64.tar.gz 
        tar xzf node_exporter-1.5.0.darwin-amd64.tar.gz 
        touch opt/node_exporter.env
        echo "EXTRA_OPTS=\"--log.level=info\"" | sudo tee opt/node_exporter.env
