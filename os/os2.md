@@ -51,10 +51,9 @@
 
    После успешной перезагрузки в браузере на своем ПК (не в виртуальной машине) вы должны суметь зайти на localhost:19999. Ознакомьтесь с метриками, которые по умолчанию собираются 
    Netdata и с комментариями, которые даны к этим метрикам.
-   ``` 
-      ![screenshot](https://github.com/AlxUp/devops-netology/blob/master/os/os2.png)
-  
-   ```
+ 
+   ![screenshot](https://github.com/AlxUp/devops-netology/blob/master/os/os2.png)
+
 4. Можно ли по выводу dmesg понять, осознает ли ОС, что загружена не на настоящем оборудовании, а на системе виртуализации?
 ```
    root@vagrant:/home/vagrant# dmesg | grep -i 'Hypervisor detected'
