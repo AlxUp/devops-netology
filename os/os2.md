@@ -33,7 +33,9 @@
 ```
 
    добавьте в Vagrantfile проброс порта Netdata на свой локальный компьютер и сделайте vagrant reload:
-   ``` config.vm.network "forwarded_port", guest: 19999, host: 19999 ```
+   ``` config.vm.network "forwarded_port", guest: 19999, host: 19999 
+   ```
+
    ```
        root@home:/home/alx/vagrant# vagrant port
        The forwarded ports for the machine are listed below. Please note that
@@ -43,13 +45,15 @@
        22 (guest) => 2222 (host)
        19999 (guest) => 19999 (host)
        root@home:/home/alx/vagrant# 
-    ```
+   
+   ```
 
 
    После успешной перезагрузки в браузере на своем ПК (не в виртуальной машине) вы должны суметь зайти на localhost:19999. Ознакомьтесь с метриками, которые по умолчанию собираются 
    Netdata и с комментариями, которые даны к этим метрикам.
    ``` 
-      Screenshot https://dropmefiles.com/JSNoX
+      ![Screenshot](https://dropmefiles.com/JSNoX.png)
+  
    ```
 4. Можно ли по выводу dmesg понять, осознает ли ОС, что загружена не на настоящем оборудовании, а на системе виртуализации?
 ```
