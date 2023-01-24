@@ -48,7 +48,7 @@
    занят другими ВМ; iowait - поможет отследить, всё ли в порядке с дисковой системой.
 
  ```
- # TYPE node_cpu_seconds_total counter
+ #TYPE node_cpu_seconds_total counter
  node_cpu_seconds_total{cpu="0",mode="idle"} 27.36
  node_cpu_seconds_total{cpu="0",mode="iowait"} 0.52
  node_cpu_seconds_total{cpu="0",mode="irq"} 0
@@ -71,17 +71,17 @@ MEM: MemTotal - количество памяти; MemFree и MemAvailable - с�
 если слишком много занято -- RAM не хватает.
 
  ```
- # TYPE node_memory_MemAvailable_bytes gauge
+ #TYPE node_memory_MemAvailable_bytes gauge
  node_memory_MemAvailable_bytes 7.43829504e+08
- # TYPE node_memory_MemFree_bytes gauge
+ #TYPE node_memory_MemFree_bytes gauge
  node_memory_MemFree_bytes 6.51558912e+08
- # TYPE node_memory_MemTotal_bytes gauge
+ #TYPE node_memory_MemTotal_bytes gauge
  node_memory_MemTotal_bytes 1.028694016e+09
- # TYPE node_memory_SwapCached_bytes gauge
+ #TYPE node_memory_SwapCached_bytes gauge
  node_memory_SwapCached_bytes 0
- # TYPE node_memory_SwapFree_bytes gauge
+ #TYPE node_memory_SwapFree_bytes gauge
  node_memory_SwapFree_bytes 1.027600384e+09
- # TYPE node_memory_SwapTotal_bytes gauge
+ #TYPE node_memory_SwapTotal_bytes gauge
  node_memory_SwapTotal_bytes 1.027600384e+09
 
  ```
@@ -90,13 +90,13 @@ MEM: MemTotal - количество памяти; MemFree и MemAvailable - с�
  чтения; io_now - интенсивность работы с диском в текущий момент.
 
  ```
- # TYPE node_filesystem_avail_bytes gauge
+ #TYPE node_filesystem_avail_bytes gauge
  node_filesystem_avail_bytes{device="/dev/mapper/vgvagrant-root",fstype="ext4",mountpoint="/"} 6.0764639232e+10
- # TYPE node_filesystem_readonly gauge
+ #TYPE node_filesystem_readonly gauge
  node_filesystem_readonly{device="/dev/mapper/vgvagrant-root",fstype="ext4",mountpoint="/"} 0
- # TYPE node_filesystem_size_bytes gauge
+ #TYPE node_filesystem_size_bytes gauge
  node_filesystem_size_bytes{device="/dev/mapper/vgvagrant-root",fstype="ext4",mountpoint="/"} 6.5827115008e+10
- # TYPE node_disk_io_now gauge
+ #TYPE node_disk_io_now gauge
  node_disk_io_now{device="sda"} 0
 
  ```
@@ -106,21 +106,21 @@ MEM: MemTotal - количество памяти; MemFree и MemAvailable - с�
  receive_packets_total, transmit_packets_total - ошибки передачи, в зависимости от объёма, вероятно какие-то проблемы сети или с хостом
 
  ```
- # TYPE node_network_carrier_down_changes_total counter
+ #TYPE node_network_carrier_down_changes_total counter
  node_network_carrier_down_changes_total{device="eth0"} 1
- # TYPE node_network_carrier_up_changes_total counter
+ #TYPE node_network_carrier_up_changes_total counter
  node_network_carrier_up_changes_total{device="eth0"} 1
- # TYPE node_network_info gauge
+ #TYPE node_network_info gauge
  node_network_info{address="08:00:27:73:60:cf",broadcast="ff:ff:ff:ff:ff:ff",device="eth0",duplex="full",ifalias="",operstate="up"} 1
- # TYPE node_network_mtu_bytes gauge
+ #TYPE node_network_mtu_bytes gauge
  node_network_mtu_bytes{device="eth0"} 1500
- # TYPE node_network_receive_errs_total counter
+ #TYPE node_network_receive_errs_total counter
  node_network_receive_errs_total{device="eth0"} 0
- # TYPE node_network_receive_packets_total counter
+ #TYPE node_network_receive_packets_total counter
  node_network_receive_packets_total{device="eth0"} 351
- # TYPE node_network_transmit_errs_total counter
+ #TYPE node_network_transmit_errs_total counter
  node_network_transmit_errs_total{device="eth0"} 0
- # TYPE node_network_transmit_packets_total counter
+ #TYPE node_network_transmit_packets_total counter
  node_network_transmit_packets_total{device="eth0"} 279
 
  ```
