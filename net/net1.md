@@ -113,18 +113,18 @@ root@home:/home/alx#
 3. Какой IP адрес у вас в интернете?
 ```
 root@home:/home/alx# dig @resolver4.opendns.com myip.opendns.com +short
-91.108.29.52
+91.***.**.52
 ```
 4. Какому провайдеру принадлежит ваш IP адрес? Какой автономной системе AS? Воспользуйтесь утилитой whois
 ```
-root@home:/home/alx# whois 91.108.29.52 | grep ^descr
+root@home:/home/alx# whois 91.***.**.52 | grep ^descr
 descr:          eTelecom_Customers_NAT_Network
 
 ```
 eTelecom_Customers_NAT_Network
 
 ```
-root@home:/home/alx# whois 91.108.29.52 | grep ^origin
+root@home:/home/alx# whois 91.***.**.52 | grep ^origin
 origin:         AS42065
 ```
 AS - AS42065
