@@ -144,7 +144,7 @@ Welcome to Ubuntu 20.04.3 LTS (GNU/Linux 5.4.0-91-generic x86_64)
  * Management:     https://landscape.canonical.com
  * Support:        https://ubuntu.com/advantage
 
-  System information as of Thu 30 Dec 2021 09:04:57 AM UTC
+  System information as of Mon 30 Jan 2023 16:04:57 AM UTC
 
   System load:  0.0                Processes:             117
   Usage of /:   11.6% of 30.88GB   Users logged in:       0
@@ -154,7 +154,7 @@ Welcome to Ubuntu 20.04.3 LTS (GNU/Linux 5.4.0-91-generic x86_64)
 
 This system is built by the Bento project by Chef Software
 More information can be found at https://github.com/chef/bento
-Last login: Wed Dec 29 13:54:32 2021 from 10.0.2.2
+Last login: Mon Jan 30 17:54:32 2023 from 10.0.2.2
 
 ```
 
@@ -162,7 +162,7 @@ Last login: Wed Dec 29 13:54:32 2021 from 10.0.2.2
 ```
 root@home:~$ mv .ssh/test_rsa .ssh/test2_rsa
 root@home:~$ mv .ssh/test_rsa.pub .ssh/test2_rsa.pub
-root@home:~$ vi .ssh/config
+root@home:~$ nano .ssh/config
 	Host vagrant2
 	HostName 127.0.0.1
 	IdentityFile ~/.ssh/test2_rsa
