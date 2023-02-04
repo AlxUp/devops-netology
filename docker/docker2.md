@@ -2,8 +2,8 @@
 
 
 1. Создать собственный образ любой операционной системы (например, ubuntu-20.04) с помощью Packer
-![SCREENSHOT1]()
-![SCREENSHOT2]()
+![SCREENSHOT1](https://github.com/AlxUp/devops-netology/blob/master/docker/yc1.png)
+![SCREENSHOT2](https://github.com/AlxUp/devops-netology/blob/master/docker/yc2.png)
 
 2. Создать вашу первую виртуальную машину в YandexCloud с помощью terraform. Используйте terraform код в директории (src/terraform)
 
