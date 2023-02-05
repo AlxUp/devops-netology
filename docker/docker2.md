@@ -6,7 +6,8 @@
 ![SCREENSHOT2](https://github.com/AlxUp/devops-netology/blob/master/docker/yc2.png)
 
 2. Создать вашу первую виртуальную машину в YandexCloud с помощью terraform. Используйте terraform код в директории (src/terraform)
-
+![SCRENNSHOT3](https://github.com/AlxUp/devops-netology/blob/master/docker/vm1.png)
+![SCREENSHOT4](https://github.com/AlxUp/devops-netology/blob/master/docker/vm2.png)
 
 3. С помощью ansible и docker-compose разверните на виртуальной машине из предыдущего задания систему мониторинга на основе Prometheus/Grafana . Используйте ansible код в директории (src/ansible)
 
