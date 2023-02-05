@@ -2,12 +2,12 @@
 
 
 1. Создать собственный образ любой операционной системы (например, ubuntu-20.04) с помощью Packer
-![SCREENSHOT1](https://github.com/AlxUp/devops-netology/blob/master/docker/yc1.png)
-![SCREENSHOT2](https://github.com/AlxUp/devops-netology/blob/master/docker/yc2.png)
+![SCREENSHOT1](https://github.com/AlxUp/devops-netology/blob/master/virt-23/docker/yc1.png)
+![SCREENSHOT2](https://github.com/AlxUp/devops-netology/blob/master/virt-23/docker/yc2.png)
 
 2. Создать вашу первую виртуальную машину в YandexCloud с помощью terraform.
-![SCRENNSHOT3](https://github.com/AlxUp/devops-netology/blob/master/docker/vm1.png)
-![SCREENSHOT4](https://github.com/AlxUp/devops-netology/blob/master/docker/vm2.png)
+![SCRENNSHOT3](https://github.com/AlxUp/devops-netology/blob/master/virt-23/docker/vm1.png)
+![SCREENSHOT4](https://github.com/AlxUp/devops-netology/blob/master/virt-23/docker/vm1.png)
 
 3. С помощью ansible и docker-compose разверните на виртуальной машине из предыдущего задания систему мониторинга на основе Prometheus/Grafana . Используйте ansible код в директории (src/ansible)
 ![SCRENNSHOT5](https://github.com/AlxUp/devops-netology/blob/master/virt-23/docker/d1.png)
