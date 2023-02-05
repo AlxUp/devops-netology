@@ -108,7 +108,7 @@ with open('host_test.log') as file:
         fileList.append(f)
 
 with open('host_test.log', 'w+') as file:
-    for i in hosts:
+    for host in hosts:
         result = socket.gethostbyname(i)
         added = 0
         for y in fileList:
@@ -116,18 +116,18 @@ with open('host_test.log', 'w+') as file:
             if (inList != -1):
                 ipstr=y.replace('\n', '').split("  ")[1].translate({None: whitespace})
                 if (ipstr == result):
-                    print(" {}  {}\n".format(i, result))
-                    file.write(" {}  {}\n".format(i, result))
+                    print(" {}  {}\n".format(host, result))
+                    file.write(" {}  {}\n".format(host, result))
                     added = 1
                     break
                 else:
                     print("[ERROR] {} IP mismatch: {}  {}\n".format(i, ipstr, result))
-                    file.write("[ERROR] {} IP mismatch: {}  {}\n".format(i, ipstr, result))
+                    file.write("[ERROR] {} IP mismatch: {}  {}\n".format(host, ipstr, result))
                     added = 1
                     break
         if (added == 0):
-            print(" {}  {}\n".format(i, result))
-            file.write(" {}  {}\n".format(i, result))
+            print(" {}  {}\n".format(host, result))
+            file.write(" {}  {}\n".format(host, result))
 ```
 ```
 % python3 host_test.py
