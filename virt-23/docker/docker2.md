@@ -10,7 +10,9 @@
 ![SCREENSHOT4](https://github.com/AlxUp/devops-netology/blob/master/docker/vm2.png)
 
 3. С помощью ansible и docker-compose разверните на виртуальной машине из предыдущего задания систему мониторинга на основе Prometheus/Grafana . Используйте ansible код в директории (src/ansible)
-
+![SCRENNSHOT5](https://github.com/AlxUp/devops-netology/blob/master/virt-23/docker/d1.png)
+![SCRENNSHOT6](https://github.com/AlxUp/devops-netology/blob/master/virt-23/docker/d2.png)
+![SCRENNSHOT7](https://github.com/AlxUp/devops-netology/blob/master/virt-23/docker/d3.png)
 
 4.
 - Откройте веб-браузер, зайдите на страницу `http://<внешний_ip_адрес_вашей_ВМ>:3000`.
