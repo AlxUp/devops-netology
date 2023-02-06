@@ -57,6 +57,6 @@
 ```
 * Курсы:
 ```
-- 2021-2022г. ООО «Нетология» Системный администратор Linux. [Сертификаты](https://github.com/AlxUp/devops-netology/tree/master/cert_it/SysAdm)
+- 2021-2022г. ООО «Нетология» Системный администратор Linux. [Сертификаты](https://github.com/AlxUp/devops-netology/tree/master/cert_it/SysAdm "Сертификаты")
 - 2022-2023г. ООО «Нетология» Devops инженер.
 ```
