@@ -168,4 +168,4 @@ UNCONN          0               0                                  [::]:5353    
 50001 порт UDP использует anydesk
 
 5. Используя diagrams.net, создайте L3 диаграмму вашей домашней сети или любой другой сети, с которой вы работали.
-![screenshot](https://github.com/AlxUp/devops-netology/blob/master/net/net3.PNG)
+![screenshot](https://github.com/AlxUp/devops-netology/blob/master/devsys-24/net/net3.PNG)

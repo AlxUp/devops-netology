@@ -1,13 +1,13 @@
 Практическая работа "Элементы безопасности информационных систем".
 
 1. Установите Bitwarden плагин для браузера. Зарегестрируйтесь и сохраните несколько паролей.
-![screenshot](https://github.com/AlxUp/devops-netology/blob/master/security/sec1.png)
+![screenshot](https://github.com/AlxUp/devops-netology/blob/master/devsys-24/security/sec1.png)
 2. Установите Google authenticator на мобильный телефон. Настройте вход в Bitwarden акаунт через Google authenticator OTP.
-![screenshot](https://github.com/AlxUp/devops-netology/blob/master/security/sec2.png)
-![screenshot](https://github.com/AlxUp/devops-netology/blob/master/security/sec3.jpg)
+![screenshot](https://github.com/AlxUp/devops-netology/blob/master/devsys-24/security/sec2.png)
+![screenshot](https://github.com/AlxUp/devops-netology/blob/master/devsys-24/security/sec3.jpg)
 
 3. Установите apache2, сгенерируйте самоподписанный сертификат, настройте тестовый сайт для работы по HTTPS.
-![screenshot](https://github.com/AlxUp/devops-netology/blob/master/security/apache2.png)
+![screenshot](https://github.com/AlxUp/devops-netology/blob/master/devsys-24/security/apache2.png)
 
 ```
 root@home:/home/alx# a2enmod ssl
@@ -50,7 +50,7 @@ root@home:/home/alx# a2ensite www.example.com
 
 ```
 
-![screenshot](https://github.com/AlxUp/devops-netology/blob/master/security/site.png)
+![screenshot](https://github.com/AlxUp/devops-netology/blob/master/devsys-24/security/site.png)
 
 
 4. Проверьте на TLS уязвимости произвольный сайт в интернете (кроме сайтов МВД, ФСБ, МинОбр, НацБанк, РосКосмос, РосАтом, РосНАНО и любых госкомпаний, объектов КИИ, ВПК ... и тому подобное).
@@ -183,6 +183,6 @@ tcpdump: listening on wlx502b73d04460, link-type EN10MB (Ethernet), snapshot len
 0 packets dropped by kernel
 root@home:/home/alx# 
 ```
-![screenshot](https://github.com/AlxUp/devops-netology/blob/master/security/wire.png)
+![screenshot](https://github.com/AlxUp/devops-netology/blob/master/devsys-24/security/wire.png)
 
 

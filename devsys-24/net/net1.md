@@ -107,7 +107,7 @@ root@home:/home/alx#
 В ответ получил код 200. Успешный запрос.
 Страница полностью загрузилась за 2.56 сек. Самый долгий запрос - начальная загрузка страницы 550 мс
 
-   ![screenshot](https://github.com/AlxUp/devops-netology/blob/master/net/net1.png) 
+![screenshot](https://github.com/AlxUp/devops-netology/blob/master/devsys-24/net/net1.md) 
 
 
 3. Какой IP адрес у вас в интернете?

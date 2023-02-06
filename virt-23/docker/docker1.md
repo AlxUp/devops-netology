@@ -59,7 +59,7 @@ https://hub.docker.com/repository/docker/alxup/alx/general
 CONTAINER ID   IMAGE       COMMAND                  CREATED          STATUS          PORTS                                   NAMES
 e0d796623bef   alxup/alx   "/docker-entrypoint.…"   9 seconds ago    Up 8 seconds    0.0.0.0:8080->80/tcp, :::8080->80/tcp   sharp_bhaskara 
 ```
-![screenshot](https://github.com/AlxUp/devops-netology/blob/master/docker/alx.png)
+![screenshot](https://github.com/AlxUp/devops-netology/blob/master/virt-23/docker/alx.png)
 
 2. 
 Посмотрите на сценарий ниже и ответьте на вопрос: "Подходит ли в этом сценарии использование Docker контейнеров или лучше подойдет виртуальная машина, физическая машина? Может быть возможны разные варианты?"
