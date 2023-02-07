@@ -80,4 +80,4 @@
 - 2021-2022г. ООО «Нетология» Системный администратор Linux. 
 - 2022-2023г. ООО «Нетология» Devops инженер.
 ```
-![cert](https://github.com/AlxUp/devops-netology/blob/master/cert_it/SysAdm/IT%20Linux.pdf)
+![SCREENSHOT](https://github.com/AlxUp/devops-netology/blob/master/cert_it/SysAdm/IT%20Linux.pdf)
