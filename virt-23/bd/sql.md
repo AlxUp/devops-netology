@@ -1,14 +1,13 @@
-Домашнее задание к занятию "2. SQL"
-Введение
-Перед выполнением задания вы можете ознакомиться с дополнительными материалами.
+#Домашнее задание к занятию "2. SQL"
+
 
 1. Используя docker поднимите инстанс PostgreSQL (версию 12) c 2 volume, в который будут складываться данные БД и бэкапы.
 
-![SCREENSHOT]()
+![SCREENSHOT](https://github.com/AlxUp/devops-netology/blob/master/virt-23/bd/screenshot/1-1.png)
 
-![SCREENSHOT]()
+![SCREENSHOT](https://github.com/AlxUp/devops-netology/blob/master/virt-23/bd/screenshot/1-2.png)
 
-![SCREENSHOT]()
+![SCREENSHOT](https://github.com/AlxUp/devops-netology/blob/master/virt-23/bd/screenshot/1-3.png)
 
 2. В БД из задачи 1:
 
@@ -84,9 +83,9 @@ test_db=# GRANT SELECT,INSERT,UPDATE,DELETE ON TABLE clients TO test_simple_user
 GRANT
 
 ```
-![SCREENSHOT]()
-![SCREENSHOT]()
-![SCREENSHOT]()
+![SCREENSHOT](https://github.com/AlxUp/devops-netology/blob/master/virt-23/bd/screenshot/2-1.png)
+![SCREENSHOT](https://github.com/AlxUp/devops-netology/blob/master/virt-23/bd/screenshot/2-2.png)
+![SCREENSHOT](https://github.com/AlxUp/devops-netology/blob/master/virt-23/bd/screenshot/2-3.png)
 3. Используя SQL синтаксис - наполните таблицы следующими тестовыми данными:
 
 Таблица orders
@@ -149,13 +148,13 @@ test_db=#
 Приведите SQL-запрос для выдачи всех пользователей, которые совершили заказ, а также вывод данного запроса.
 
 Подсказк - используйте директиву UPDATE.
-![SCREENSHOT4]()
+![SCREENSHOT4](https://github.com/AlxUp/devops-netology/blob/master/virt-23/bd/screenshot/4.png)
 
 5. Получите полную информацию по выполнению запроса выдачи всех пользователей из задачи 4 (используя директиву EXPLAIN).
 
 Приведите получившийся результат и объясните что значат полученные значения.
 
-![SCREENSHOT5]()
+![SCREENSHOT5](https://github.com/AlxUp/devops-netology/blob/master/virt-23/bd/screenshot/5.png)
 ```
 Чтение данных из таблицы clients происходит с использованием метода Seq Scan — последовательного чтения данных. 
 Значение 0.00 — ожидаемые затраты на получение первой строки. Второе — 18.10 — ожидаемые затраты на получение всех строк. 
@@ -189,7 +188,6 @@ vagrant@sysadm-fs:~/sql$
 vagrant@sysadm-fs:~/sql$ sudo docker run --name pg12_new -e POSTGRES_PASSWORD=12345678 -d postgres:12
 ```
 ```
-
 vagrant@sysadm-fs:/home$ sudo docker cp pg12:/home/test_db.backup /home
 vagrant@sysadm-fs:/home$ sudo docker cp home/test_db.backup pg12_new:/home
 root@bdac24fcc02a:/# psql -U postgres -d test_db -f /home/test_db.backup
